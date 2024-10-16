@@ -20,8 +20,9 @@ jobs:
           ls -al
           
       - name: Read file  # Lee
-        run: |
+        run: | 
           cat hola.txt
+          ls -al
 
   dos:
     runs-on: ubuntu-latest
